@@ -59,7 +59,7 @@ Kong предлагает оптимальный баланс между фун�
 
 ## Ответ
 
-| Характеристика      | RabbitMQ       | Apache Kafka    | AWS SQS/SNS        NATS   | Redis Streams|
+| Характеристика      | RabbitMQ       | Apache Kafka    | AWS SQS/SNS |     NATS    | Redis Streams|
 |---------------------|----------------|-----------------|-------------|-------------|--------------|
 | **Кластеризация**   | Mirrored queues| Partitions      | Managed     | Clustering  | Redis Cluster|
 | **Хранение на дис.**| Durable queues | Log segments    | SQS Standard|    In-memory| AOF/RDB      |
